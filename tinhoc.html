@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vợ chồng A Phủ – Tô Hoài</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* ===== NỀN TRANH MINH HỌA VỢ CHỒNG A PHỦ ===== */
+body{
+  font-family:'Montserrat',sans-serif;
+  color:#f5f5f5;
+  background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.8)),
+    url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/26e8d7178649531.64ec62054bfbc.png");
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+/* ===== HEADER ===== */
+header{
+  padding:3rem 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header h1{
+  font-family:'Playfair Display',serif;
+  font-size:3rem;
+  letter-spacing:2px;
+}
+
+header span{
+  opacity:.85;
+}
+
+/* ===== MAIN ===== */
+main{
+  padding:2rem 5%;
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  gap:2rem;
+}
+
+/* ===== CARD MỜ (GIỐNG WEB MẪU) ===== */
+.card{
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(14px);
+  border-radius:22px;
+  padding:2rem;
+  box-shadow:0 20px 40px rgba(0,0,0,.35);
+  transition:.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  background: rgba(255,255,255,0.18);
+}
+
+.card h2{
+  font-family:'Playfair Display',serif;
+  margin-bottom:1rem;
+  color:#ffdede;
+}
+
+/* ===== ẢNH ===== */
+.card img{
+  width:100%;
+  border-radius:14px;
+  margin-bottom:1rem;
+}
+
+/* ===== BLOCKQUOTE ===== */
+blockquote{
+  border-left:4px solid #ffdede;
+  padding-left:1rem;
+  font-style:italic;
+  opacity:.9;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  text-align:center;
+  padding:2rem;
+  opacity:.6;
+  font-size:.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>VỢ CHỒNG A PHỦ</h1>
+  <span>Tác giả: Tô Hoài</span>
+</header>
+
+<main>
+
+<div class="card">
+  <h2>Giới thiệu tác phẩm</h2>
+  <img src="https://tse3.mm.bing.net/th/id/OIP.lttPi0BY_WqUH_IertzQCgAAAA?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Bìa sách">
+  <p><strong>Thể loại:</strong> Truyện ngắn</p>
+  <p><strong>Năm sáng tác:</strong> 1952</p>
+</div>
+
+<div class="card">
+  <h2>Tóm tắt nội dung</h2>
+  <p>
+    “Vợ chồng A Phủ” phản ánh số phận đau khổ của người dân miền núi
+    dưới ách thống trị của cường quyền phong kiến.
+    Qua nhân vật Mị và A Phủ, tác phẩm khẳng định sức sống tiềm tàng
+    và khát vọng tự do mãnh liệt của con người.
+  </p>
+</div>
+
+<div class="card">
+  <h2>Cảm nhận cá nhân</h2>
+  <p>
+    Nhân vật Mị để lại ấn tượng sâu sắc bởi sức sống bền bỉ.
+    Dù bị vùi dập, Mị vẫn không đánh mất nhân tính
+    và đã tự giải phóng chính mình.
+  </p>
+</div>
+
+<div class="card">
+  <h2>3 Thông tin thú vị</h2>
+  <ul>
+    <li>Viết sau chuyến đi Tây Bắc của Tô Hoài</li>
+    <li>Mị là hình tượng tiêu biểu cho phụ nữ miền núi</li>
+    <li>Tác phẩm giàu giá trị hiện thực và nhân đạo</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>Trích dẫn hay</h2>
+  <blockquote>
+    “A Phủ cũng sẽ chết như thế, và mình cũng sẽ chết như thế.”
+  </blockquote>
+</div>
+</div>
+    <section class="video-section">
+  <h2 class="section-title">
+    <span>Video giới thiệu truyện Vợ Chồng A Phủ</span>
+  </h2>
+
+  <div class="video-section">
+    <div style="text-align: center; margin-top: px;">
+    <video controls preload="metadata">
+      <source src="videocuaquynh.mp4" type="video/mp4" width="800" height="300" controls></video>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © Dự án HTML Ngữ văn 12 – Nguyễn Thị Như Quỳnh
+</footer>
+
+</body>
+</html>
